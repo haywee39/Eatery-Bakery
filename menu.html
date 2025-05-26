@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherish&family=Comforter+Brush&display=swap" rel="stylesheet">
+
+    
+    
+    <link rel="icon" href="./logo/eforiro-removebg-preview.png">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./menu-media.css">
+   
+    <title>Just Foodiyz Menu</title>
+</head>
+<body>
+
+    <!-- THE NAVBAR BEGIN FROM HERE  -->
+ <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><h1>Just Foodiyz</h1></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+  
+          
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+            </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- THE NAVBAR ENDS HERE  -->
+
+
+
+  <!-- ****************************************************************** -->
+  <section class="menu-section">
+    <h1>Our Menus</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui et quidem voluptatem enim in nobis <br>
+     prehenderit incidunt beatae aliquam voluptatibus excepturi qui, dolores, voluptate illum iusto.
+        Omnis, ducimus perspiciatis!
+    </p>
+
+  
+    <div class="menu-cards">
+      
+      <!-- 1 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/moinmoinRbv41abVS8tN (1).jpg" alt="Jollof Rice">
+          <h3>Jollof Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Jollof Rice with Chicken - $22.00</li>
+            <li>Jollof Rice with Fish - $24.00</li>
+            <li>Jollof Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+  
+      <!-- 2 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+  
+       <!-- 3 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="menu-card">
+        <div class="menu-card-front">
+          <img src="./menuimgs/eforiro.jpg" alt="Fried Rice">
+          <h3>Fried Rice</h3>
+          <button class="details-btn" onclick="flipCard(event)">See Details</button>
+        </div>
+        <div class="menu-card-back">
+          <ul>
+            <li>Fried Rice with Chicken - $22.00</li>
+            <li>Fried Rice with Fish - $24.00</li>
+            <li>Fried Rice with Goat Meat - $25.00</li>
+          </ul>
+          <button class="back-btn" onclick="flipBack(event)">Back</button>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+<!-- ************************************************************* -->
+
+<section class="testimonials">
+    <img src="./landingpage/pple diningvKo7FYKdg1H.webp" alt="">
+
+<div class="testimonials-container">
+    <h2>What Our Customers Say</h2>
+    <!-- <div class="line"></div> -->
+    <p class="testimonials-desc">
+        We offer services to a wide customer client base ranging from 
+        different corporate bodies, organizations,
+        to private individuals from every spheres of life
+         and from diverse spheres.
+      </p>
+    <div class="testimonial-carousel">
+        <div class="testimonial-card active">
+            <p>"Just Foodiyz brings a taste of home to every meal.the service is unmatched!"</p>
+            <h3>– Jane Doe</h3>
+        </div>
+        <div class="testimonial-card">
+            <p>"The best Nigerian delicacies I've had outside Nigeria. Truly exceptional!"</p>
+            <h3>– John Smith</h3>
+        </div>
+        <div class="testimonial-card">
+            <p>"Absolutely love the dishes! They bring me back to my roots with every bite."</p>
+            <h3>– Mary Johnson</h3>
+        </div>
+    </div>
+</div>
+</section>
+ <!-- &&&&&&&&&&&&&&&&&&&&&&&&777 -->
+    <!-- START- CUSTOMERS TESTIMONY BEGINS HERE -->
+    <section id="client-container">
+      <h1 class="heady-title">Our Clienteles</h1>
+      <div class="line"></div> 
+      <div class="logo-track">
+        <img src="./clientlogo/canvaimages.jpeg" alt="Client Logo 1" />
+        <img src="./clientlogo/figimages.png" alt="Client Logo 2" />
+        <img src="./clientlogo/cssimages.jpeg" alt="Client Logo 3" />
+        <img src="./clientlogo/6.png" alt="Client Logo 4" />
+        <img src="./clientlogo/main_logo-removebg-preview.png" alt="Client Logo 5" />
+        <!-- Duplicate logos for seamless loop -->
+        <img src="./clientlogo/canvaimages.jpeg" alt="Client Logo 1" />
+        <img src="./clientlogo/figimages.png" alt="Client Logo 2" />
+        <img src="./clientlogo/cssimages.jpeg" alt="Client Logo 3" />
+        <img src="./clientlogo/6.png" alt="Client Logo 4" />
+        <img src="./clientlogo/main_logo-removebg-preview.png" alt="Client Logo 5" />
+      </div>
+     
+     
+  </section>
+  <!-- END- CUSTOMERS TESTIMONY BEGINS HERE -->
+  <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&777 -->
+
+  <!-- *************************************************************************8 -->
+
+  <section id="company">
+    <div class="logo-name">
+      <img src="./logo/eforiro-removebg-preview.png" alt="">
+      <h1>Just Foodiyz</h1>
+    </div>
+    
+    <div class="socials">
+      
+      <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+      <a href="" class="instagram-button" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+      <a href="" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>
+  
+    </div>
+
+    <div class="location-address"> 
+      <a href="" target="_blank"> 
+        <p><i class="fa-solid fa-location-dot"></i>    Toba Cres. Brampton L6Z 4R8</p>
+      </a>
+    </div>
+  
+  </section>
+  <!-- ****************************************** -->
+  <footer>
+    <div class="foot">
+       
+      
+       <a href="https://haywee39.github.io/tagstechie" target="_blank"><i class="fas fa-external-link-alt fa-1x"></i></a>
+       &nbsp;  
+       &nbsp;
+       <strong class="tag">TAGS-TECHIE</strong>
+       &nbsp;
+       &nbsp;
+       <a href="mailto:haywee39@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i></a>
+       
+     </div>
+</footer>
+
+
+
+<script src="./script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+ crossorigin="anonymous"></script>
+</body>
+</html>
